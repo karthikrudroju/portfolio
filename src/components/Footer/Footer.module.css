@@ -1,5 +1,6 @@
 .container {
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .icons {
@@ -9,6 +10,7 @@
 
 a {
   text-decoration: none;
+  color: #efefef;
 }
 
 .parent {

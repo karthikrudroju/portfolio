@@ -2,18 +2,20 @@ import React from "react";
 import Typical from "react-typical";
 import {Button} from "@material-ui/core";
 import styles from "./Profile.module.css";
-import profileImage from "../../img/profile.png";
 
 function Profile() {
     return (
         <div className={styles.container}>
             <div className={styles.nav}>
-                        Navigation Bar
+                    <ul>
+                        <li><a href="#" className={styles.link}>Contact</a></li>
+                        <li><a href="#" className={styles.link}>Projects</a></li>
+                        <li><a href="#" className={styles.link}>About</a></li>
+                        <li><a href="#" className={styles.link}>Home</a></li>
+                    </ul>
             </div>
-            <img class={styles.image} src={profileImage} alt="profile-img" />
             <div className={styles.parent}>
-                <div className="details">
-                    
+                <div className="details"> 
                     <div className="name">
                         <span className="primary-text">
                             Hello, I'm <span className="highlighted-text">Karthik</span>

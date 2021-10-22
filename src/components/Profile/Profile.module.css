@@ -1,19 +1,19 @@
 .container {
   display: block;
   text-align: center;
-  height: 75vh;
+  height: 100vh;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
-  background: rgba(0, 0, 0, 0.5);
+  background: #efefef;
 }
 
 .parent {
-  color: #efefef;
+  color: rgba(0, 0, 0, 0.5);
   font-size: large;
   font-weight: bold;
-  padding-top: 140px;
-  margin-right: 500px;
   justify-content: center;
+  position: relative;
+  margin-top: 200px;
 }
 
 .resume {
@@ -22,15 +22,21 @@
 
 .nav {
   padding: 20px;
-  color: #efefef;
-  background-color: rgb(20, 19, 19);
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.image {
-  width: 12rem;
+li {
   float: right;
-  border-radius: 10%;
-  position: relative;
-  right: 350px;
-  top: 80px;
+  font-weight: 600;
+  margin: auto 2rem;
+  list-style-type: none;
+}
+
+li a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+li a:hover {
+  color: black;
 }
