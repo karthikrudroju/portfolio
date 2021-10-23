@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 
 function Footer() {
     return (
-        <div className={styles.container}>
+        <div id="contact" className={styles.container}>
             <div className={styles.parent}>
                     <div className={styles.details}>
                         <a className={styles.icons} href="https://www.linkedin.com/in/rudroju-karthik-ab030a1b5/"><i className="fab fa-linkedin fa-lg"></i></a>

@@ -1,0 +1,37 @@
+.container {
+  padding: 0 10%;
+  height: 60vh;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.parent {
+  padding: 2rem 0;
+}
+
+.heading {
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.image {
+  width: 25%;
+  border-radius: 100%;
+  margin-right: 2rem;
+  float: left;
+}
+
+.details {
+  padding: 4rem 0 0 0;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.details a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.details a:hover {
+  color: black;
+}

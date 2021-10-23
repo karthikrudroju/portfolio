@@ -16,8 +16,17 @@
   margin-top: 200px;
 }
 
+.name {
+  font-weight: 600;
+}
+
+.role {
+  font-weight: 600;
+}
+
 .resume {
   margin: 10px;
+  margin-bottom: 30px;
 }
 
 .nav {
@@ -39,4 +48,12 @@ li a {
 
 li a:hover {
   color: black;
+}
+
+.downicon {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.downicon:hover {
+  color: rgba(0, 0, 0, 0.75);
 }
