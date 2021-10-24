@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
 
+
 function App() {
     return (
         <div>
