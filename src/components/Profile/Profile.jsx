@@ -2,18 +2,11 @@ import React from "react";
 import Typical from "react-typical";
 import {Button} from "@material-ui/core";
 import styles from "./Profile.module.css";
+import resume from "../../Resume/Resume.pdf";
 
 function Profile() {
     return (
         <div className={styles.container}>  
-            <div className={styles.nav}>
-                <ul>
-                    <li><a href="#contact" className={styles.link}>Contact</a></li>
-                    <li><a href="#projects" className={styles.link}>Projects</a></li>
-                    <li><a href="#aboutme" className={styles.link}>About</a></li>
-                    <li><a href="#" className={styles.link}>Home</a></li>
-                </ul>
-            </div>
             <div className={styles.parent}>
                 <div className="details"> 
                     <div className={styles.name}>
@@ -42,7 +35,7 @@ function Profile() {
                         </span>
                     </div>
                     <div className={styles.resume}>
-                        <a>
+                        <a href={resume} title="Resume" download>
                             <Button variant="outlined" className="btn">
                                 Get Resume
                             </Button>
