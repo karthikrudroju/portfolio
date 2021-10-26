@@ -1,38 +1,24 @@
-.container {
-  display: block;
+.profileContainer {
+  padding: 20px 120px;
   text-align: center;
-  height: 92vh;
-  justify-content: center;
+  background-color: #efefef;
+  color: rgba(0, 0, 0, 0.5);
   font-family: "Montserrat", sans-serif;
-  background: #efefef;
-}
-
-.parent {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: large;
-  font-weight: bold;
+  height: calc(100vh - 80px);
+  display: flex;
   justify-content: center;
-  padding-top: 200px;
-  position: relative;
+  align-items: center;
+  flex-direction: column;
 }
 
-.name {
-  font-weight: 600;
+.profileParent h3 {
+  font-weight: normal;
 }
 
-.role {
-  font-weight: 600;
+.profileParent div {
+  font-size: 40px;
 }
 
-.resume {
-  margin: 10px;
-  margin-bottom: 30px;
-}
-
-.downicon {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.downicon:hover {
-  color: rgba(0, 0, 0, 0.75);
+.text {
+  font-size: 20px;
 }
