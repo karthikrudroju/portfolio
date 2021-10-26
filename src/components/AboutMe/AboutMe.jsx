@@ -1,22 +1,23 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
+import {Grid, Container} from "@material-ui/core";
 import imageURL from "../../img/profile.jpg"
 
 function AboutMe() {
     return (
-        <div id="aboutme" className={styles.container}>
-            <div className={styles.parent}>
-                <div className={styles.heading}>
-                    <h1>About Me</h1>
-                </div>
-                <img className={styles.image} src={imageURL} alt="profile-picture" />
-                <div className={styles.details}>
+        <Container id="aboutme" className={styles.container}>
+            <h1 className={styles.heading}>About Me</h1>
+            <Grid container spacing={4} justifyContent="center">
+                <Grid item  xs={12} md={4} lg={3} className={styles.img}>
+                    <img className={styles.image}  src={imageURL} alt="profile-picture"/>
+                </Grid>
+                <Grid item  xs={12} md={8} className={styles.details}>
                     Hi, Myself Karthik Rudroju.<br /> I am a Computer Science undergraduate at National Institute of Technology, Raipur. <br />
                     I'm a Web developer and I am currently exploring other web technologies like blockchain and cloud technology. <br />
                     I do competitive coding on platforms like codechef <a href="https://www.codechef.com/users/karthik_0018">karthik_0018</a> and codeforces <a href="https://codeforces.com/profile/Karthik_Rudroju">karthik_rudroju</a>
-                </div>
-            </div>
-        </div>
+                </Grid>
+            </Grid>
+        </Container>
     );
 }
 

@@ -1,27 +1,23 @@
 .container {
-  padding: 3% 10%;
-  height: 70vh;
+  padding: 4rem 0;
   color: rgba(0, 0, 0, 0.75);
 }
 
-.parent {
-  padding: 2rem 0;
-}
-
 .heading {
-  margin-bottom: 1rem;
   text-align: center;
 }
 
 .image {
-  width: 25%;
+  width: 20rem;
   border-radius: 100%;
-  margin-right: 2rem;
-  float: left;
+}
+
+.img {
+  margin: 2rem !important;
 }
 
 .details {
-  padding: 4rem 0 0 0;
+  margin: 6rem 1rem 2rem 1rem !important;
   font-size: 20px;
   line-height: 2rem;
   text-align: left;
@@ -34,4 +30,15 @@
 
 .details a:hover {
   color: black;
+}
+
+@media (max-width: 960px) {
+  .details {
+    margin: 0rem 1rem !important;
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+    justify-content: center;
+  }
 }
