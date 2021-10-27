@@ -22,3 +22,12 @@
 .text {
   font-size: 20px;
 }
+
+div .downicon {
+  margin-top: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+div .downicon:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
