@@ -8,7 +8,7 @@ function Profile() {
         <div className={styles.profileContainer}>
             <div className={styles.profileParent}>
                 <h3>Hello, I'm Karthik</h3>
-                <div>
+                <div className={styles.typical}>
                     <Typical
                         loop={Infinity}
                         steps={[
