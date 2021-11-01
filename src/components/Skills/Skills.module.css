@@ -1,5 +1,5 @@
 .container {
-  padding: 2rem 4rem;
+  padding: 4rem 4rem;
   background-color: #efefef;
   color: rgba(0, 0, 0, 0.75);
 }
@@ -14,7 +14,7 @@
 }
 
 div.iconContainer {
-  text-align: center;
+  /* text-align: center; */
   color: rgba(0, 0, 0, 0.25);
   padding: 5px 5px 5px 5px;
 }

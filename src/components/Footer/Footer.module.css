@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #efefef;
 }
 
 .icons {
@@ -10,11 +10,12 @@
 
 a {
   text-decoration: none;
-  color: #efefef;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 a:hover {
-  color: rgba(0, 0, 0, 0.6);
+  color: black;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .parent {

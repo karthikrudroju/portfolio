@@ -4,7 +4,7 @@
   background-color: #efefef;
   color: rgba(0, 0, 0, 0.5);
   font-family: "Montserrat", sans-serif;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 5vh);
   display: flex;
   justify-content: center;
   align-items: center;

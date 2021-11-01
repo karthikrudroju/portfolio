@@ -13,6 +13,7 @@ function NavBar() {
                 <ul>
                     <li><a href="#" className={styles.link}>Home</a></li>
                     <li><a href="#aboutme" className={styles.link}>About</a></li>
+                    <li><a href="#skills" className={styles.link}>Skills</a></li>
                     <li><a href="#projects" className={styles.link}>Projects</a></li>
                     <li><a href="#contact" className={styles.link}>Contact</a></li>
                 </ul>
