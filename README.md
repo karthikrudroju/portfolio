@@ -1,3 +1,3 @@
 # Portfolio
 
-Personal website [visit here](https://karthik2001.netlify.app/).
+Personal website [visit here](https://karthikrudroju.netlify.app/).
