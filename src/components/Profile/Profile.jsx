@@ -22,7 +22,7 @@ function Profile() {
                     />
                 </div>
                 <p className={styles.text}>Have the ability to build remarkable web applications.</p>
-                <a href="https://drive.google.com/file/d/1syYIMXUHzG_u3F13uphJCAsbLEWfZKr8/view?usp=sharing" title="Resume" target="_blank">
+                <a href="https://drive.google.com/file/d/1etK3yvGTiBgR3V1_5k1jKe1VTo6u5x3Z/view?usp=sharing" title="Resume" target="_blank">
                     <Button variant="outlined" className="btn">
                         Get Resume
                     </Button>

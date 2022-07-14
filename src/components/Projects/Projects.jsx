@@ -22,8 +22,8 @@ function Projects() {
                                 />
                             </a>
                         </Typography>
-                        <Typography variant="body1" gutterBottom>An application using HTML, CSS, Javascript and ReactJS</Typography>
-                        <Typography variant="body1" gutterBottom>Retrieved data including total confirmed cases, deaths and recovered from covid-19 api using axios (npm package) which is a promise-based HTTP Client.</Typography>
+                        <Typography variant="body1" gutterBottom className={styles.projectText}>An application using HTML, CSS, Javascript and ReactJS</Typography>
+                        <Typography variant="body1" gutterBottom className={styles.projectText}>Retrieved data including total confirmed cases, deaths and recovered from covid-19 api using axios (npm package) which is a promise-based HTTP Client.</Typography>
                         <div className={styles.iconContainer}><a className={styles.icon} href="https://covid-19-api-kr.netlify.app/" target="_blank" ><i class="fas fa-globe fa-2x"></i></a>  <a className={styles.icon} href="https://github.com/karthikrudroju/covid-19-status-2" target="_blank" ><i class="fab fa-github fa-2x"></i></a></div>
                     </CardContent>
                 </Grid>
@@ -40,8 +40,8 @@ function Projects() {
                                 />
                             </a>
                         </Typography>
-                        <Typography variant="body1" gutterBottom>An application using HTML, CSS, Javascript and ReactJS</Typography>
-                        <Typography variant="body1" gutterBottom>This Keeper application is based on Google Keep with simple features like adding and deleting notes.These notes have seperate heading and description.</Typography>
+                        <Typography variant="body1" gutterBottom className={styles.projectText}>An application using HTML, CSS, Javascript and ReactJS</Typography>
+                        <Typography variant="body1" gutterBottom className={styles.projectText}>This Keeper application is based on Google Keep with simple features like adding and deleting notes.These notes have seperate heading and description.</Typography>
                         <div className={styles.iconContainer}><a className={styles.icon} href="https://keeper-app-kr.netlify.app/" target="_blank" ><i class="fas fa-globe fa-2x"></i></a>  <a className={styles.icon} href="https://github.com/karthikrudroju/keeper-app" target="_blank" ><i class="fab fa-github fa-2x"></i></a></div>
                     </CardContent>
                 </Grid>
